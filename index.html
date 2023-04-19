@@ -14,7 +14,7 @@
     <main class="main">
       <section class="todo-add">
         <div class="todo-add__content">
-          <label class="todo-add__label" for="new-task">Add Item</label>
+          <h2 class="todo-add__title title">Add item</h2>
           <div class="task-add__wrapper">
             <input class="todo-add__task" type="text">
             <button class="todo-add__btn">Add</button>
@@ -24,31 +24,31 @@
       <section class="todo">
         <h2 class="todo__title title">Todo</h3>
         <ul class="todo__list">
-          <li class="todo__item">
+          <li class="todo__item item">
             <input class="todo__item-checkbox" type="checkbox">
-            <label class="todo__item-label">Pay Bills</label>
-            <input class="todo__item-input" type="text">
-            <button class="todo__item-btn todo__item-btn_edit">Edit</button>
-            <button class="todo__item-btn todo__item-btn_delete"><img src="./remove.svg" alt="Remove"></button>
+            <label class="todo__item-label label">Pay Bills</label>
+            <input class="todo__item-input input" type="text">
+            <button class="todo__item-btn edit btn">Edit</button>
+            <button class="todo__item-btn delete btn"><img class="todo-completed__img" src="./remove.svg" alt="Remove"></button>
           </li>
-          <li class="todo__item todo__item_edit">
-            <input class="todo__item-checkbox" type="checkbox">
-            <label class="todo__item-label">Go Shopping</label>
-            <input class="todo__item-input" type="text" value="Go Shopping">
-            <button class="todo__item-btn todo__item-btn_edit">Save</button>
-            <button class="todo__item-btn todo__item-btn_delete"><img src="./remove.svg" alt="Remove"></button>
+          <li class="todo__item todo__item_edit item">
+            <input class="todo__item-checkbox checkbox" type="checkbox">
+            <label class="todo__item-label label">Go Shopping</label>
+            <input class="todo__item-input input" type="text" value="Go Shopping">
+            <button class="todo__item-btn edit btn">Save</button>
+            <button class="todo__item-btn delete btn"><img class="todo-completed__img" src="./remove.svg" alt="Remove"></button>
           </li>
         </ul>
       </section>
       <section class="todo-completed">
         <h2 class="todo-completed__title title">Completed</h2>
         <ul class="todo-completed__list">
-          <li class="todo-completed__item">
-            <input class="todo-completed__checkbox" type="checkbox" checked>
-            <label class="todo-completed__label">See the Doctor</label>
-            <input class="todo-completed__input" type="text">
-            <button class="todo-completed__btn todo-completed__btn_edit">Edit</button>
-            <button class="todo-completed__btn todo-completed__btn_delete"><img src="./remove.svg" alt="Remove"></button>
+          <li class="todo-completed__item item">
+            <input class="todo-completed__checkbox checkbox" type="checkbox" checked>
+            <label class="todo-completed__label label">See the Doctor</label>
+            <input class="todo-completed__input input" type="text">
+            <button class="todo-completed__btn edit btn">Edit</button>
+            <button class="todo-completed__btn delete btn"><img class="todo-completed__img" src="./remove.svg" alt="Remove"></button>
           </li>
         </ul>
       </section>
